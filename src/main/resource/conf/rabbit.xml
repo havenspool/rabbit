@@ -1,0 +1,28 @@
+<db>
+    <datasources>
+        <datasource name="rabbit" default="true">
+            <driver>com.mysql.jdbc.Driver</driver>
+            <url>jdbc:mysql://localhost:3306/nettydemo?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull</url>
+            <user>root</user>
+            <password>havens</password>
+        </datasource>
+    </datasources>
+
+    <afterCacheClass></afterCacheClass>
+
+    <cache>
+        <memory_cache>true</memory_cache>
+        <key_prefix>r_</key_prefix>
+        <sync_time>900000</sync_time>
+        <cluster>false</cluster>
+        <redis>
+            <hosts>
+                <!-- <password>tcteC$cwDG</password> -->
+                <host port="6379">127.0.0.1</host>
+            </hosts>
+        </redis>
+        <!--
+        <memcache></memcache>
+        -->
+    </cache>
+</db>

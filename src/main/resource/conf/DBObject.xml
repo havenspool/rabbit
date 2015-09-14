@@ -1,0 +1,18 @@
+<dbobjects>
+    <dbobject>
+        <class_name>com.havenspool.rabbit.User</class_name>
+        <table_name>users</table_name>
+    </dbobject>
+
+    <!--<dbobject>-->
+        <!--<class_name>com.burstyx.rabbit.example.Material</class_name>-->
+        <!--&lt;!&ndash; 用于更新缓存匹配之用 &ndash;&gt;-->
+        <!--<cache_key>heroId</cache_key>-->
+        <!--<table_name mark="true">heroes_bag</table_name>-->
+    <!--</dbobject>-->
+
+    <!--<dbobject datasource="test">-->
+        <!--<class_name>com.burstyx.rabbit.example.MyTest</class_name>-->
+        <!--<table_name>myTest</table_name>-->
+    <!--</dbobject>-->
+</dbobjects>
